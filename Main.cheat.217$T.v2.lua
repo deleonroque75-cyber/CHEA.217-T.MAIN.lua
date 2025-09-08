@@ -506,68 +506,11 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/ezsee/Hitbox-Expander
 local Button = MainTab:CreateButton({
    Name = "Remote Spy [217$T]",
    Callback = function()
-local G2L = {};
+loadstring(game:HttpGetAsync("https://github.com/richie0866/remote-spy/releases/latest/download/RemoteSpy.lua"))()
+   end,
+})
 
-_G.Code = ""
-
--- StarterGui.sexy spy from tf2
-G2L["1"] = Instance.new("ScreenGui", game:GetService("Players").LocalPlayer:WaitForChild("PlayerGui"));
-G2L["1"]["Name"] = [[sexy spy from tf2]];
-G2L["1"]["ResetOnSpawn"] = false
-G2L["1"]["ZIndexBehavior"] = Enum.ZIndexBehavior.Sibling;
-
--- StarterGui.sexy spy from tf2.Frame
-G2L["2"] = Instance.new("Frame", G2L["1"]);
-G2L["2"]["BorderSizePixel"] = 0;
-G2L["2"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["2"]["Size"] = UDim2.new(0, 425, 0, 253);
-G2L["2"]["Position"] = UDim2.new(0.02067, 0, 0.17804, 0);
-G2L["2"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-
--- StarterGui.sexy spy from tf2.Frame.TopBar
-G2L["3"] = Instance.new("Frame", G2L["2"]);
-G2L["3"]["BorderSizePixel"] = 0;
-G2L["3"]["BackgroundColor3"] = Color3.fromRGB(38, 36, 39);
-G2L["3"]["Size"] = UDim2.new(0, 425, 0, 18);
-G2L["3"]["Position"] = UDim2.new(0, 0, -0.00378, 0);
-G2L["3"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["3"]["Name"] = [[TopBar]];
-
--- StarterGui.sexy spy from tf2.Frame.TopBar.Name
-G2L["4"] = Instance.new("TextLabel", G2L["3"]);
-G2L["4"]["BorderSizePixel"] = 0;
-G2L["4"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["4"]["TextSize"] = 14;
-G2L["4"]["FontFace"] = Font.new([[rbxasset://fonts/families/Arial.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-G2L["4"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["4"]["BackgroundTransparency"] = 1;
-G2L["4"]["Size"] = UDim2.new(0, 58, 0, 14);
-G2L["4"]["BorderColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["4"]["Text"] = [[sexy spy from tf2]];
-G2L["4"]["Name"] = [[Name]];
-G2L["4"]["Position"] = UDim2.new(0, 0, 0, 0);
-
--- StarterGui.sexy spy from tf2.Frame.TopBar.X
-G2L["5"] = Instance.new("TextButton", G2L["3"]);
-G2L["5"]["BorderSizePixel"] = 0;
-G2L["5"]["TextStrokeColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["5"]["TextSize"] = 21;
-G2L["5"]["TextColor3"] = Color3.fromRGB(205, 205, 205);
-G2L["5"]["BackgroundColor3"] = Color3.fromRGB(38, 36, 39);
-G2L["5"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-G2L["5"]["RichText"] = true;
-G2L["5"]["Size"] = UDim2.new(0, 24, 0, 18);
-G2L["5"]["Name"] = [[X]];
-G2L["5"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["5"]["Text"] = [[X]];
-G2L["5"]["Position"] = UDim2.new(0.94353, 0, 0, 0);
-
--- StarterGui.sexy spy from tf2.Frame.Buttons
-G2L["6"] = Instance.new("Frame", G2L["2"]);
-G2L["6"]["BorderSizePixel"] = 0;
-G2L["6"]["BackgroundColor3"] = Color3.fromRg
-
-      local Button = MainTab:CreateButton({
+local Button = MainTab:CreateButton({
    Name = "DISCORD 217$T",
    Callback = function()
 https://discord.gg/YXRG5Zbq
